@@ -58,7 +58,7 @@ span img{
 
 }
 nav button{
-    border-radius: 5px;
+    border-radius: 6px;
     background: var(--rang);
     color: white;
     padding: 10px 20px;
