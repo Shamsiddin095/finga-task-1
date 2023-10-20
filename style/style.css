@@ -1,0 +1,479 @@
+
+@font-face {
+    font-family: Inter;
+    src: url(https://fonts.google.com/specimen/Inter+Tight?query=Inter);
+    src: url(https://fonts.google.com/specimen/Manrope?query=Manrope);
+}
+:root{
+    --rang:#F84646;
+}
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    margin: 0px auto;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+   max-width: 100%;
+}
+
+header{
+    max-width: 100%;
+    height: 754px;
+    background-image: url(../img/header_img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+   
+}
+.header_nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.navbar a{
+    
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+}
+.list img{
+    display: none;
+}
+.navbar button{
+    border-radius: 5px;
+    background: var(--rang);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+.header_content{
+    margin: 135px 0px 148px 122px;
+   width: 100%;
+}
+.header_content h1{
+    width: 665px;
+    font-size: 64px;
+    
+}  
+.header_content p{
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; 
+    letter-spacing: 0.2px;
+    width: 665px;
+} 
+.input_cont {
+
+    position: relative;
+    width: 502px;
+    height: 73px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 18px 292px 18px 32px;
+   margin-top: 50px;
+}
+.input_cont input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.input_cont button{
+    position: absolute;
+    width: 136px;
+    height: 61px;
+    border-radius: 8px;
+    left: 360px;
+    top: 6px;
+    background: var(--rang);
+    color: white;
+    font-size: 16px;
+}
+main{
+    max-width: 1800px;;
+    margin: 0px auto;
+    
+}
+.container_first{
+    padding: 120px 223px 91px 223px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+}
+.container_first h1{
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.container_first p{
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.5px; /* 164.583% */
+    letter-spacing: 0.2px;
+}
+
+.container_blocks{
+    position: relative;
+    display: flex;
+    gap: 116px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    align-items: center;
+  
+}
+.block{
+    position: relative;
+    width: 300px;
+
+
+}
+.block h2{
+    color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.container_blocks .block p{
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.2px;
+}
+#ellipse_right{
+    position: absolute;
+    right: 100px;
+    z-index: -1;
+    opacity: 0.8;
+}
+#ellipse_left{
+    position: absolute;
+    right: 150px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.img_container{
+    color: white;
+    width: 100%;
+    height: ;
+    position: relative;
+   background: var(--rang);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.img_container h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    content: 'Test Yönetimiyle Neler Sağliyoruz?';
+    color: white;
+    font-size: 54px;
+    text-align: center;
+}
+.after{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+.after_title{
+    display: flex;
+    flex-direction: column;
+   
+}
+.after_title a{
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.container_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 122px 100px 122px;
+    gap: 85px   ;
+}
+.section_title{
+    width: 600px;
+}
+.section_title h1{
+    color:  #2E2E2E;
+font-family: Manrope;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px; /* 118.75% */
+}
+.section_title p{
+    color: #808080;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+.section_title button{
+    width: 160px;
+    border-radius: 5px;
+    background: var(--rang);
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    margin-top: 80px;
+}
+
+.logotips{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background:  #F4F5F7;
+    flex-wrap: wrap;
+}
+.logotips h1{
+    color: var(--text-gray-900, #18191F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; 
+}
+.logotips p{
+    color:  #18191F;
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+.logos_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 69px;
+    gap: 24px;
+}
+
+.logos_content img{
+    width: 170px;
+    height: 96px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0px 30px 40px 0px rgba(212, 217, 232, 0.20);
+    padding: 15px 18px;
+}
+.logo1, .logo2, .logo3, .logo4, .logo5{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us{
+    text-align: center;
+    position: relative;
+    width: 650px;
+    margin: auto;
+    margin-top: 166px;
+    margin-bottom: 166px;
+
+ 
+}
+#yumaloq{
+    width: 61pxpx;
+    height: 61px;
+    position: absolute;
+    right: 280px;
+    z-index: -1;
+
+}
+
+#users{
+    width: 120px;
+    height: 120px;
+}
+.contact_us h1{
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 66.667% */
+}
+.contact_us p{
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    margin-top: 20px;
+}
+.contact_us button{
+    display: inline-flex;
+    padding: 25px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 24px;
+    border-radius: 8px;
+    background: #F84646;
+    border: none;
+    margin-top: 30px;
+}
+
+/*fooooter*/
+footer{
+    background: var(--rang);
+    width: 100%;
+    padding: 80px;
+}
+.footer_links{
+    display: flex;
+   gap: 120px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.links h1{
+    color: var(--text-white, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+
+/* Heading/Bold/Heading 6 - 16px */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+}
+.links a{
+    text-decoration: none;
+    color:  #E6E6E6;
+
+/* Body/16px Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+}
+.copyright_icons{
+    margin-top: 100px;
+    
+}
+.copy span{
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.copy{
+    float: left;
+}
+.icons{
+    float: right;
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width:360px) {
+
+    .navbar a{
+        display: none;
+    }
+    .navbar{
+        padding: 40px 15px;
+    }
+    header img{
+        width: 300px;
+        fill: radial-gradient(111.67% 156.26% at 141.47% 78.12%, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    }
+    .logos_content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        display: block;
+    }
+    
+}
