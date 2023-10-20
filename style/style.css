@@ -118,7 +118,7 @@ header{
     font-size: 16px;
 }
 main{
-    max-width: 1800px;;
+    max-width: 1800px;
     margin: 0px auto;
     
 }
@@ -203,7 +203,6 @@ line-height: normal;
 .img_container{
     color: white;
     width: 100%;
-    height: ;
     position: relative;
    background: var(--rang);
     display: flex;
@@ -253,12 +252,12 @@ line-height: normal;
     width: 600px;
 }
 .section_title h1{
-    color:  #2E2E2E;
+color:  #2E2E2E;
 font-family: Manrope;
 font-size: 64px;
 font-style: normal;
 font-weight: 700;
-line-height: 76px; /* 118.75% */
+line-height: 76px; 
 }
 .section_title p{
     color: #808080;
@@ -300,7 +299,6 @@ line-height: 76px; /* 118.75% */
 .logotips p{
     color:  #18191F;
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
@@ -361,7 +359,7 @@ line-height: 76px; /* 118.75% */
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    line-height: 32px; /* 66.667% */
+    line-height: 32px; 
 }
 .contact_us p{
     color: #000;
@@ -370,7 +368,7 @@ line-height: 76px; /* 118.75% */
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 177.778% */
+    line-height: 32px; 
     margin-top: 20px;
 }
 .contact_us button{
@@ -404,7 +402,7 @@ footer{
     gap: 24px;
 }
 .links h1{
-    color: var(--text-white, #FFF);
+    color: white;
     font-variant-numeric: lining-nums proportional-nums;
 
 /* Heading/Bold/Heading 6 - 16px */
@@ -412,7 +410,7 @@ font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 24px; /* 150% */
+line-height: 24px;
 }
 .links a{
     text-decoration: none;
